@@ -45,6 +45,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'rxmov_files')
 # Others
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ZPpcbtCV204yYWU1')
+WEBSITE_LINK = environ.get('WEBSITE_LINK', 'tnlink.in')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RolexMoviesOX')
 MSG_ALRT = environ.get('MSG_ALRT', '🚩 @RolexMoviesOX Best Channel In Telegram')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001660274107'))
