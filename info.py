@@ -47,6 +47,8 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ZPpcbtCV204yYWU1')
 SHORTENER_WEBSITE = environ.get('SHORTENER_WEBSITE', 'droplink.co')
 API_TOKEN = environ.get('API_TOKEN', '7b8f6186f757ca317538f68e9ebaaf05780bc330')
+HOW_TO_DOWNLOAD_BUTTON = environ.get('HOW_TO_DOWNLOAD_BUTTON', '‼️ How To Download ⁉️')
+HOW_TO_DOWNLOAD_URL = environ.get('HOW_TO_DOWNLOAD_URL', 'https://t.me/RolexMoviesOX/55')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RolexMoviesOX')
 MSG_ALRT = environ.get('MSG_ALRT', '🚩 @RolexMoviesOX Best Channel In Telegram')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001660274107'))
@@ -84,8 +86,4 @@ SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
-DOWNLOAD_TEXT_NAME = "How to download "
-DOWNLOAD_TEXT_URL = "https://t.me/RolexMoviesOX/55"
-CAPTION_BUTTON = "Support"
-CAPTION_BUTTON_URL = "https://t.me/RolexMoviesOX"
 
